@@ -1,5 +1,5 @@
 
-# Twilio Glossary Scraper
+# Glossary Scraper
 
 ## Overview
 This project is a Python-based scraper that extracts glossary terms, definitions, and detailed explanations from Twilio's documentation. The scraper retrieves the glossary from the given page, fetches the linked term pages, and saves the information in multiple formats: CSV, JSON, and Word document.
@@ -18,7 +18,7 @@ This project is a Python-based scraper that extracts glossary terms, definitions
 
    ```bash
    git clone https://github.com/yourusername/twilio-glossary-scraper.git
-   cd twilio-glossary-scraper
+   cd glossary-scraper
    ```
 
 2. Set up a Python virtual environment (optional but recommended):
