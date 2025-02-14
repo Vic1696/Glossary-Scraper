@@ -2,7 +2,7 @@
 # Glossary Scraper
 
 ## Overview
-This project is a Python-based scraper that extracts glossary terms, definitions, and detailed explanations from Twilio's documentation. The scraper retrieves the glossary from the given page, fetches the linked term pages, and saves the information in multiple formats: CSV, JSON, and Word document.
+This project is a Python-based scraper that extracts glossary terms, definitions, and detailed explanations from websites' documentation. The scraper retrieves the glossary from the given page, fetches the linked term pages, and saves the information in multiple formats: CSV, JSON, and Word document.
 
 ## Features
 - Scrape glossary terms, definitions, and links from the Twilio glossary page.
@@ -45,10 +45,7 @@ To run the scraper:
    python main.py
    ```
 
-The scraper will fetch the glossary, follow links, extract the required data, and save the results in the following files:
-- `twilio_glossary.csv` (CSV format)
-- `twilio_glossary.json` (JSON format)
-- `twilio_glossary.docx` (Word document)
+The scraper will fetch the glossary, follow links, extract the required data, and save the results in the CSV format, JSON format and Word document.
 
 ## Configuration
 
@@ -62,7 +59,6 @@ Logs are stored in the `scraper.log` file. Make sure to keep this file in the `.
 
 ## Notes
 
-- This scraper is currently configured to work with Twilio's glossary page.
 - The scraper extracts the term name, definition, and follows the links to get the full details.
 - You can modify the scraper in the future to work with other glossary pages by adjusting the parsing logic.
 
